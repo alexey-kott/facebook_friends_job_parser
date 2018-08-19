@@ -121,6 +121,8 @@ def parse_friend_jobs(driver: Chrome, friends_list: List[User]):
         try:
             user.add_jobs(parse_jobs(driver, user.link))
         except NoSuchElementException:
+            with open("log.txt", "a") as file:
+                file.write(f"{user.link}\n")
             i -= 1
 
 
