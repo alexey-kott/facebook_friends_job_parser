@@ -116,7 +116,10 @@ def parse_jobs(driver: Chrome, user_link: str) -> List[str]:
 
 def parse_friend_jobs(driver: Chrome, friends_list: List[User]):
     for user in friends_list:
-        user.add_jobs(parse_jobs(driver, user.link))
+        try:
+            user.add_jobs(parse_jobs(driver, user.link))
+        except:
+            print(user)
 
 
 def parse_friends_works(driver: Chrome, links: List[str]) -> defaultdict:
