@@ -2,3 +2,5 @@ config.py
 venv/
 .idea/
 __pycache__/
+credentials.txt
+profile_links.txt

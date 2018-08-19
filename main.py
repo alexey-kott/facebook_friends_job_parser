@@ -3,7 +3,7 @@ import re
 from collections import defaultdict
 from dataclasses import dataclass
 from random import randint
-from typing import List
+from typing import List, Tuple
 from time import sleep
 
 from selenium.common.exceptions import NoSuchElementException
@@ -66,6 +66,7 @@ def scroll_page(driver: Chrome, height: str):
 
 
 def parse_friends(driver: Chrome, user_link: str) -> List[User]:
+    sleep(delay())
     driver.get(f"{user_link}/friends")
     driver.find_element_by_tag_name("body").send_keys(Keys.ESCAPE)
     scroll_page(driver, driver.execute_script("return document.body.scrollHeight"))
@@ -84,11 +85,30 @@ def get_driver() -> Chrome:
     return Chrome("./webdriver/chromedriver", chrome_options=options)
 
 
+def get_fb_credentials() -> Tuple[str, str]:
+    with open("credentials.txt") as file:
+        for line in file.readlines():
+            yield tuple(line.strip('\n').split(":"))
+
+
 def facebook_login(driver: Chrome) -> None:
+    sleep(delay())
+    fb_login, fb_password = next(fb_credentials)
     driver.get("https://www.facebook.com")
-    driver.find_element_by_id("email").send_keys(FB_LOGIN)
-    driver.find_element_by_id("pass").send_keys(FB_PASSWORD)
+    driver.find_element_by_id("email").send_keys(fb_login)
+    driver.find_element_by_id("pass").send_keys(fb_password)
     driver.find_element_by_id("u_0_2").click()
+    driver.find_element_by_tag_name("body").send_keys(Keys.ESCAPE)
+
+
+def facebook_logout(driver: Chrome) -> None:
+    sleep(delay())
+    driver.get("https://www.facebook.com")
+    driver.find_element_by_tag_name("body").send_keys(Keys.ESCAPE)
+    driver.find_element_by_id("userNavigationLabel").click()
+    sleep(1)
+    driver.find_element_by_class_name("_64kz").click()
+    sleep(3)
 
 
 def parse_job(item: WebElement) -> str:
@@ -103,6 +123,7 @@ def parse_job(item: WebElement) -> str:
 
 
 def parse_jobs(driver: Chrome, user_link: str) -> List[str]:
+    sleep(delay())
     driver.get(user_link)
     driver.find_element_by_tag_name("body").send_keys(Keys.ESCAPE)  # закроем поп-ап с предложением об оповещениях
     driver.find_element(By.XPATH, "//a[@data-tab-key='about']").click()
@@ -116,14 +137,14 @@ def parse_jobs(driver: Chrome, user_link: str) -> List[str]:
 
 
 def parse_friend_jobs(driver: Chrome, friends_list: List[User]):
-    for i in range(len(friends_list)):
-        user = friends_list[i]
+    for user in friends_list:
         try:
             user.add_jobs(parse_jobs(driver, user.link))
         except NoSuchElementException:
+            facebook_logout(driver)
+            facebook_login(driver)
             with open("log.txt", "a") as file:
                 file.write(f"{user.link}\n")
-            i -= 1
 
 
 def parse_friends_works(driver: Chrome, links: List[str]) -> defaultdict:
@@ -148,6 +169,7 @@ def save_to_csv(data: defaultdict) -> None:
 if __name__ == "__main__":
     # https: // www.facebook.com / e.pchelincev
     # https: // www.facebook.com / vladimir.bugaevsky
+    fb_credentials = get_fb_credentials()
 
     profile_links_file = "profile_links.txt"
     profile_links = get_profile_links()
