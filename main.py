@@ -6,6 +6,7 @@ from random import randint
 from typing import List
 from time import sleep
 
+from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver import Chrome, ChromeOptions
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
@@ -115,11 +116,12 @@ def parse_jobs(driver: Chrome, user_link: str) -> List[str]:
 
 
 def parse_friend_jobs(driver: Chrome, friends_list: List[User]):
-    for user in friends_list:
+    for i in range(len(friends_list)):
+        user = friends_list[i]
         try:
             user.add_jobs(parse_jobs(driver, user.link))
-        except:
-            print(user)
+        except NoSuchElementException:
+            i -= 1
 
 
 def parse_friends_works(driver: Chrome, links: List[str]) -> defaultdict:
