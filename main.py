@@ -80,7 +80,7 @@ def parse_friends(driver: Chrome, user_link: str) -> List[User]:
 def get_driver() -> Chrome:
     options = ChromeOptions()
     options.add_argument("--start-maximized")
-    options.add_argument("--headless")
+    # options.add_argument("--headless")
 
     return Chrome("./webdriver/chromedriver", chrome_options=options)
 
@@ -94,10 +94,12 @@ def get_fb_credentials() -> Tuple[str, str]:
 def facebook_login(driver: Chrome) -> None:
     sleep(delay())
     fb_login, fb_password = next(fb_credentials)
+    print(fb_login, fb_password)
     driver.get("https://www.facebook.com")
     driver.find_element_by_id("email").send_keys(fb_login)
     driver.find_element_by_id("pass").send_keys(fb_password)
-    driver.find_element_by_id("u_0_2").click()
+    driver.find_element_by_id("pass").send_keys(Keys.ENTER)
+    # driver.find_element_by_id("u_0_3").click()
     driver.find_element_by_tag_name("body").send_keys(Keys.ESCAPE)
 
 
@@ -105,10 +107,15 @@ def facebook_logout(driver: Chrome) -> None:
     sleep(delay())
     driver.get("https://www.facebook.com")
     driver.find_element_by_tag_name("body").send_keys(Keys.ESCAPE)
-    driver.find_element_by_id("userNavigationLabel").click()
+    try:
+        driver.find_element_by_id("userNavigationLabel").click()
+        sleep(1)
+        driver.find_element_by_class_name("_64kz").click()
+    except:
+        sleep(1)
+        driver.get("https://www.facebook.com/logout.php?h=Afc_DcWNH6_gvpKo&t=1534745122&ref=mb")
+        # driver.find_element_by_class_name("_2t-f").click()
     sleep(1)
-    driver.find_element_by_class_name("_64kz").click()
-    sleep(3)
 
 
 def parse_job(item: WebElement) -> str:
@@ -139,6 +146,8 @@ def parse_jobs(driver: Chrome, user_link: str) -> List[str]:
 def parse_friend_jobs(driver: Chrome, friends_list: List[User]):
     for user in friends_list:
         try:
+            # if user.link in parsed_links:
+            #     continue
             user.add_jobs(parse_jobs(driver, user.link))
         except NoSuchElementException:
             facebook_logout(driver)
@@ -166,16 +175,25 @@ def save_to_csv(data: defaultdict) -> None:
                 csv_write.writerow([profile_link, f"{user.name} ({user.link})", *user.jobs[:2]])
 
 
+def get_parsed_links():
+    with open("parsed_links.txt") as file:
+        return file.read().split('\n')
+
+
 if __name__ == "__main__":
     # https: // www.facebook.com / e.pchelincev
     # https: // www.facebook.com / vladimir.bugaevsky
     fb_credentials = get_fb_credentials()
+    # parsed_links = get_parsed_links()
 
     profile_links_file = "profile_links.txt"
     profile_links = get_profile_links()
 
     chrome_driver = get_driver()
-    facebook_login(chrome_driver)
+    for i in range(5):
+        facebook_login(chrome_driver)
+        facebook_logout(chrome_driver)
+    exit()
     friends_job = parse_friends_works(chrome_driver, profile_links)
 
     save_to_csv(friends_job)
