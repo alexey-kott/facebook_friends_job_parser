@@ -86,9 +86,10 @@ def get_driver() -> Chrome:
 
 
 def get_fb_credentials() -> Tuple[str, str]:
-    with open("credentials.txt") as file:
+    with open("fb_accounts.txt") as file:
         for line in file.readlines():
-            yield tuple(line.strip('\n').split(":"))
+            credentials = line.strip('\n').split(";")
+            yield credentials[0], credentials[1]
 
 
 def facebook_login(driver: Chrome) -> None:
@@ -146,9 +147,10 @@ def parse_jobs(driver: Chrome, user_link: str) -> List[str]:
 def parse_friend_jobs(driver: Chrome, friends_list: List[User]):
     for user in friends_list:
         try:
-            # if user.link in parsed_links:
-            #     continue
+            if user.link in parsed_user_links:
+                continue
             user.add_jobs(parse_jobs(driver, user.link))
+            save_user(user)
         except NoSuchElementException:
             facebook_logout(driver)
             facebook_login(driver)
@@ -175,25 +177,34 @@ def save_to_csv(data: defaultdict) -> None:
                 csv_write.writerow([profile_link, f"{user.name} ({user.link})", *user.jobs[:2]])
 
 
+def save_user(user: User):
+    print(user)
+    with open(users_file, "a", encoding="utf-8") as file:
+        csv_write = csv.writer(file, delimiter=';', )
+        csv_write.writerow([user.name, user.link, *user.jobs[:2]])
+    with open(parsed_user_links_file, 'a') as file:
+        file.write(f"{user.link}\n")
+
+
 def get_parsed_links():
-    with open("parsed_links.txt") as file:
-        return file.read().split('\n')
+    with open(parsed_user_links_file) as file:
+        return [link for link in file.read().split('\n') if link != '']
 
 
 if __name__ == "__main__":
     # https: // www.facebook.com / e.pchelincev
     # https: // www.facebook.com / vladimir.bugaevsky
-    fb_credentials = get_fb_credentials()
-    # parsed_links = get_parsed_links()
+    profile_links_file = "target_users.txt"
+    parsed_user_links_file = "parsed_user_links.txt"
+    users_file = "users.txt"
 
-    profile_links_file = "profile_links.txt"
+    fb_credentials = get_fb_credentials()
+    parsed_user_links = get_parsed_links()
+
     profile_links = get_profile_links()
 
     chrome_driver = get_driver()
-    for i in range(5):
-        facebook_login(chrome_driver)
-        facebook_logout(chrome_driver)
-    exit()
+    facebook_login(chrome_driver)
     friends_job = parse_friends_works(chrome_driver, profile_links)
 
-    save_to_csv(friends_job)
+    # save_to_csv(friends_job)

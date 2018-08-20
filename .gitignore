@@ -4,3 +4,4 @@ venv/
 __pycache__/
 credentials.txt
 profile_links.txt
+fb_accounts.txt
