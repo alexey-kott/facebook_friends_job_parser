@@ -60,7 +60,7 @@ def get_profile_links() -> List[str]:
 
 def scroll_page(driver: Chrome, height: str):
     driver.find_element_by_tag_name("body").send_keys(Keys.END)
-    sleep(delay())
+    sleep(2)
     if height != driver.execute_script("return document.body.scrollHeight"):
         scroll_page(driver, driver.execute_script("return document.body.scrollHeight"))
 
@@ -80,7 +80,7 @@ def parse_friends(driver: Chrome, user_link: str) -> List[User]:
 def get_driver() -> Chrome:
     options = ChromeOptions()
     options.add_argument("--start-maximized")
-    # options.add_argument("--headless")
+    options.add_argument("--headless")
 
     return Chrome("./webdriver/chromedriver", chrome_options=options)
 
@@ -95,7 +95,7 @@ def get_fb_credentials() -> Tuple[str, str]:
 def facebook_login(driver: Chrome) -> None:
     sleep(delay())
     fb_login, fb_password = next(fb_credentials)
-    print(fb_login, fb_password)
+    # print(fb_login, fb_password)
     driver.get("https://www.facebook.com")
     driver.find_element_by_id("email").send_keys(fb_login)
     driver.find_element_by_id("pass").send_keys(fb_password)
@@ -153,7 +153,11 @@ def parse_friend_jobs(driver: Chrome, friends_list: List[User]):
             save_user(user)
         except NoSuchElementException:
             facebook_logout(driver)
-            facebook_login(driver)
+            try:
+                facebook_login(driver)
+            except:
+                facebook_logout(driver)
+                facebook_login(driver)
             with open("log.txt", "a") as file:
                 file.write(f"{user.link}\n")
 
