@@ -80,7 +80,7 @@ def parse_friends(driver: Chrome, user_link: str) -> List[User]:
 def get_driver() -> Chrome:
     options = ChromeOptions()
     options.add_argument("--start-maximized")
-    options.add_argument("--headless")
+    # options.add_argument("--headless")
 
     return Chrome("./webdriver/chromedriver", chrome_options=options)
 
@@ -92,16 +92,26 @@ def get_fb_credentials() -> Tuple[str, str]:
             yield credentials[0], credentials[1]
 
 
+def is_suspended(driver: Chrome) -> bool:
+    if driver.page_source.find("We want to make sure that your account is secure") != -1:
+        return True
+    return False
+
+
 def facebook_login(driver: Chrome) -> None:
     sleep(delay())
     fb_login, fb_password = next(fb_credentials)
-    # print(fb_login, fb_password)
     driver.get("https://www.facebook.com")
     driver.find_element_by_id("email").send_keys(fb_login)
     driver.find_element_by_id("pass").send_keys(fb_password)
     driver.find_element_by_id("pass").send_keys(Keys.ENTER)
     # driver.find_element_by_id("u_0_3").click()
     driver.find_element_by_tag_name("body").send_keys(Keys.ESCAPE)
+    sleep(1)
+
+    if is_suspended(driver):
+        facebook_logout(driver)
+        facebook_login(driver)
 
 
 def facebook_logout(driver: Chrome) -> None:
@@ -186,20 +196,17 @@ def save_user(user: User):
     with open(users_file, "a", encoding="utf-8") as file:
         csv_write = csv.writer(file, delimiter=';', )
         csv_write.writerow([user.name, user.link, *user.jobs[:2]])
-    with open(parsed_user_links_file, 'a') as file:
-        file.write(f"{user.link}\n")
 
 
 def get_parsed_links():
-    with open(parsed_user_links_file) as file:
-        return [link for link in file.read().split('\n') if link != '']
+    with open(users_file) as file:
+        return [line.split(';')[1] for line in file.readlines()]
 
 
 if __name__ == "__main__":
     # https: // www.facebook.com / e.pchelincev
     # https: // www.facebook.com / vladimir.bugaevsky
     profile_links_file = "target_users.txt"
-    parsed_user_links_file = "parsed_user_links.txt"
     users_file = "users.txt"
 
     fb_credentials = get_fb_credentials()
