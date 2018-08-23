@@ -16,7 +16,7 @@ from config import FB_LOGIN, FB_PASSWORD
 
 
 def delay():
-    return randint(3, 15)
+    return randint(3, 7)
 
 
 @dataclass
@@ -60,7 +60,7 @@ def get_profile_links() -> List[str]:
 
 def scroll_page(driver: Chrome, height: str):
     driver.find_element_by_tag_name("body").send_keys(Keys.END)
-    sleep(2)
+    sleep(3)
     if height != driver.execute_script("return document.body.scrollHeight"):
         scroll_page(driver, driver.execute_script("return document.body.scrollHeight"))
 
@@ -158,6 +158,7 @@ def parse_friend_jobs(driver: Chrome, friends_list: List[User]):
     for user in friends_list:
         try:
             if user.link in parsed_user_links:
+                print(user.link)
                 continue
             user.add_jobs(parse_jobs(driver, user.link))
             save_user(user)
@@ -176,7 +177,7 @@ def parse_friends_works(driver: Chrome, links: List[str]) -> defaultdict:
     data = defaultdict(list)
     for profile_link in links:
         friends_list = parse_friends(driver, profile_link)
-        parse_friend_jobs(driver, friends_list)
+        # parse_friend_jobs(driver, friends_list)
 
         data[profile_link] = friends_list
 
@@ -200,22 +201,44 @@ def save_user(user: User):
 
 def get_parsed_links():
     with open(users_file) as file:
-        return [line.split(';')[1] for line in file.readlines()]
+        return [line.split(';')[1].strip('\n') for line in file.readlines()]
+
+
+def save_friends(driver: Chrome, profile_links):
+    for profile_link in profile_links:
+        print(f"Start parce friends: {profile_link}")
+        friends_list = parse_friends(driver, profile_link)
+
+        file_name = profile_link.split('/')[-1]
+        with open(f"{file_name}_friends.txt", "w") as file:
+            for friend in friends_list:
+                file.write(f"{friend.link}; {friend.name}\n")
+
+
+def main(driver: Chrome):
+    profile_links = get_profile_links()
+
+    facebook_login(driver)
+    save_friends(driver, profile_links)
+
+    # friends_job = parse_friends_works(driver, profile_links)
 
 
 if __name__ == "__main__":
-    # https: // www.facebook.com / e.pchelincev
-    # https: // www.facebook.com / vladimir.bugaevsky
+    # https://www.facebook.com/e.pchelincev  Friends: ~726
+    # https://www.facebook.com/vladimir.bugaevsky.1 Friends: ~1122
     profile_links_file = "target_users.txt"
     users_file = "users.txt"
 
     fb_credentials = get_fb_credentials()
     parsed_user_links = get_parsed_links()
 
-    profile_links = get_profile_links()
-
     chrome_driver = get_driver()
-    facebook_login(chrome_driver)
-    friends_job = parse_friends_works(chrome_driver, profile_links)
+    try:
+        main(chrome_driver)
+    except Exception as e:
+        print(e)
+        chrome_driver.close()
+
 
     # save_to_csv(friends_job)
