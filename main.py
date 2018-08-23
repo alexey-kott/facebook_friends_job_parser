@@ -140,20 +140,6 @@ def parse_job(item: WebElement) -> str:
     return f"{job_place} ({job_position})"
 
 
-def parse_jobs(driver: Chrome, user_link: str) -> List[str]:
-    sleep(delay())
-    driver.get(user_link)
-    driver.find_element_by_tag_name("body").send_keys(Keys.ESCAPE)  # закроем поп-ап с предложением об оповещениях
-    driver.find_element(By.XPATH, "//a[@data-tab-key='about']").click()
-    sleep(delay())
-    driver.find_element(By.XPATH, "//a[@data-testid='nav_edu_work']").click()
-    sleep(delay())
-    experience_list = driver.find_elements_by_class_name("experience")
-    jobs = [parse_job(item) for item in experience_list]
-
-    return jobs
-
-
 def parse_friend_jobs(driver: Chrome, friends_list: List[User]):
     for user in friends_list:
         try:
@@ -176,8 +162,9 @@ def parse_friend_jobs(driver: Chrome, friends_list: List[User]):
 def parse_friends_works(driver: Chrome, links: List[str]) -> defaultdict:
     data = defaultdict(list)
     for profile_link in links:
-        friends_list = parse_friends(driver, profile_link)
-        # parse_friend_jobs(driver, friends_list)
+        file_name = profile_link.split('/')[-1]
+        # friends_list = parse_friends(driver, profile_link)
+        parse_friend_jobs(driver, friends_list)
 
         data[profile_link] = friends_list
 
@@ -215,13 +202,25 @@ def save_friends(driver: Chrome, profile_links):
                 file.write(f"{friend.link}; {friend.name}\n")
 
 
+def parse_jobs(driver: Chrome, user_link: str) -> List[str]:
+    sleep(delay())
+    driver.get(user_link)
+    driver.find_element_by_tag_name("body").send_keys(Keys.ESCAPE)  # закроем поп-ап с предложением об оповещениях
+    driver.find_element(By.XPATH, "//a[@data-tab-key='about']").click()
+    sleep(delay())
+    driver.find_element(By.XPATH, "//a[@data-testid='nav_edu_work']").click()
+    sleep(delay())
+    experience_list = driver.find_elements_by_class_name("experience")
+    jobs = [parse_job(item) for item in experience_list]
+
+    return jobs
+
+
 def main(driver: Chrome):
     profile_links = get_profile_links()
 
     facebook_login(driver)
-    save_friends(driver, profile_links)
-
-    # friends_job = parse_friends_works(driver, profile_links)
+    parse_friends_works(driver, profile_links)
 
 
 if __name__ == "__main__":
