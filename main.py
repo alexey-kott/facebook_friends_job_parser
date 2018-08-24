@@ -6,6 +6,7 @@ from random import randint
 from typing import List, Tuple
 from time import sleep
 
+import click
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver import Chrome, ChromeOptions
 from selenium.webdriver.common.by import By
@@ -163,7 +164,7 @@ def parse_friends_works(driver: Chrome, links: List[str]) -> defaultdict:
     data = defaultdict(list)
     for profile_link in links:
         file_name = profile_link.split('/')[-1]
-        # friends_list = parse_friends(driver, profile_link)
+        friends_list = parse_friends(driver, profile_link)
         parse_friend_jobs(driver, friends_list)
 
         data[profile_link] = friends_list
@@ -216,11 +217,42 @@ def parse_jobs(driver: Chrome, user_link: str) -> List[str]:
     return jobs
 
 
+def get_friend_links(profile_link: str) -> List:
+    file_name = profile_link.split('/')[-1]
+    with open(f"{file_name}_friends.txt") as file:
+        return [line.split(';')[0].strip('\n') for line in file.readlines()]
+
+
+def save_jobs(friend_link, jobs):
+    print(friend_link, jobs)
+    with open("users.txt", "a") as file:
+        file.write(f";{friend_link};{';'.join(jobs)}\n")
+
+
 def main(driver: Chrome):
     profile_links = get_profile_links()
 
     facebook_login(driver)
-    parse_friends_works(driver, profile_links)
+
+    for profile_link in profile_links:
+        friend_links = get_friend_links(profile_link)
+
+        for friend_link in friend_links:
+            try:
+                if friend_link in parsed_user_links:
+                    continue
+                jobs = parse_jobs(driver, friend_link)
+                save_jobs(friend_link, jobs)
+            except NoSuchElementException:
+                facebook_logout(driver)
+                try:
+                    facebook_login(driver)
+                except:
+                    facebook_logout(driver)
+                    facebook_login(driver)
+                with open("log.txt", "a") as file:
+                    file.write(f"{friend_link}\n")
+        # parse_friends_works(driver, profile_links)
 
 
 if __name__ == "__main__":

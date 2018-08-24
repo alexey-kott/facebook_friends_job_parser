@@ -305,3 +305,213 @@ Irina Guseva;https://www.facebook.com/irina.guseva.31;Alcatel-Lucent (Recruiter)
 Максим Телицын;https://www.facebook.com/maxtelitsyn;Мини зимни (Основатель / владелец);"Ооо ""абс экспресс"" (Генеральный директор)"
 Сергей Колесняк;https://www.facebook.com/skolesnyak;Tele2 Russia (Digital Director);Связной (Ecommerce & B2B Director)
 Дмитрий Носов;https://www.facebook.com/profile.php?id=1062369964
+;https://www.facebook.com/o.mamedoff;Admitad (Нет данных)
+;https://www.facebook.com/mikhail.kapatsinskiy;ФРИИ (Трекер заочного акселератора);Фотобук маркетинг (инвестор, CEO);ИПС М-Сити (Генеральный директор);ИПС М-Сити (Генеральный директор);МГТУ имени Баумана (Class of 1992);Балашихинская средняя школа номер 3 (Class of 1986)
+;https://www.facebook.com/theepicjoy;Wallarm (7 December 2017 to present);ESET NOD32 Russia (2014 to 6 December 2017);MGOU (Class of 2017);школа при Посольстве РФ в Польше (Warsaw, Poland)
+;https://www.facebook.com/ivan.arinchev.1;
+;https://www.facebook.com/maxim.oranskiy;Шанти-шанти.рф (Стартапер);Ivelum (Software engineer);Futubank (Разработчик);Ostrovok.ru (Веб-разработчик);Reggi.ru (Веб-разработчик);SKCG (Веб-технолог);НИТУ «МИСиС» (Moscow, Russia)
+;https://www.facebook.com/fedotkin.nikolay;Video-shoper.ru. Лучшая мобильная техника здесь (Владелец);Связной (Нет данных)
+;https://www.facebook.com/eugene.mischenko;
+;https://www.facebook.com/alla.vasilyeva.3;Unitemp (Director of Public Relations);Яндекс.Еда - быстрая доставка из ресторанов (Director of Public Relations)
+;https://www.facebook.com/profile.php?id=100006250503112;Fresh Logic - Фулфилмент, Склад, Доставка (Head of Sales);BIOCARD (sales);R&D Pharma (Business Development Manager (BDM));Russian Presidential Academy (Class of 2015);ИБДА РАНХиГС при президенте РФ (Class of 2012)
+;https://www.facebook.com/kim.sanzhiev;GetResponse (Business Development Executive GR Enterprise);Get Outfit (Founder and CEO);Another Point (Business development and project team leader);КСК групп (Business Development Manager);БПС-Сбербанк (Sales manager and marketing department internship);Belarusian State University (2010 to 2014)
+;https://www.facebook.com/denoller;Ping Delivery (28 July 2016 to present);Order Processor (April 2014 to present);Sheepla.Ru (CEO);MarketMixer (August 2010 to August 2016);TyreIndex (CEO/Founder)
+;https://www.facebook.com/kshivanskij;Planarry (Chief technology officer);КВВАИУ (Class of 1996);Средняя школа №5 г. Умань (Class of 1981);Киевское ВВАИУ (Kyiv, Ukraine)
+;https://www.facebook.com/pavel.petrikov.3;
+;https://www.facebook.com/weborub;Supplier of Happiness (Генеральный директор, основатель);WebProfy.ru (Генеральный директор, основатель)
+;https://www.facebook.com/frankocorelli;OIN SPACE (Head of PR);Vinci Agency (pr);Cognitive Technologies (pr);RGK Mobile (PR director);BRINGO 24/7 (pr);Nuance Communications (PR-менеджер);НИЯУ МИФИ (Moscow, Russia)
+;https://www.facebook.com/valentin.nikolaenkov;Next Solutions (Deputy CTO);RBK.money (Project Leader);Интернет-магазин OZON.ru (Менеджер по развитию бизнеса);Quelle Versand Deutschland (Project manager);Московский институт иностранных языков (Class of 2004);школа имени В.М. Комарова (Class of 1999)
+;https://www.facebook.com/mike.anuchin;СКБ Контур (Руководитель Департамента)
+;https://www.facebook.com/olga.lyashenko.39;Администрация города (Нет данных);МПГУ (Class of 2001);МПГУ (Moscow, Russia)
+;https://www.facebook.com/elina.gruzdeva.18;1С-Битрикс (менеджер по организации мероприятий);Russian state university of trade and economics (RSUTE) (Нет данных);Школа № 827 (Moscow, Russia)
+;https://www.facebook.com/profile.php?id=100002572608950;Fresh Logic (HR Менеджер);Международный институт менеджмента ЛИНК (Начальник отдела кадров);Международный институт менеджмента ЛИНК (Zhukovskiy, Chelyabinskaya Oblast', Russia)
+;https://www.facebook.com/paul.vitko;Zenmall (руководитель отдела по работе с клиентами);Консалтинговая группа Финэкс (Описание бизнес-процессов Правительства Ярославской областиwith Vitaly Tomin);УрФУ им. Б. Н. Ельцина (бывш. УГТУ-УПИ) (Yekaterinburg, Sverdlovskaya Oblast', Russia);СУНЦ УрГУ (Yekaterinburg, Sverdlovskaya Oblast', Russia)
+;https://www.facebook.com/nikitasergeevich.kravchenko;People SMM (Копирайтер, контент-менеджер);Запорожский национальный технический университет (Технический перевод);ООШ №16 (Left in 1997)
+;https://www.facebook.com/alexey.adadurov;Paragon Software Group (Software Engineering Manager);НейроЛаб (Руководитель проекта);МГТУ им. Н.Э. Баумана (Class of 2003);МГТУ им. Н.Э. Баумана (Class of 2003);Школа 1180 (при МГТУ им. Баумана) (Class of 1997);МГСОФМШ №1180 при МГТУ им. Баумана (Class of 1997);Школа № 518 (January 1993 to 1995);Школа № 996 (1987 to 1992)
+;https://www.facebook.com/dmitry.boyko.ad;
+;https://www.facebook.com/yury.nadinskyartamonov;
+;https://www.facebook.com/vi.vinogradov;PONY EXPRESS (Нет данных);НГУ (Class of 1991);средняя школа №130 (Novosibirsk, Russia);многопрофильный Лицей № 130 (Novosibirsk, Russia)
+;https://www.facebook.com/profile.php?id=100008455395253;Yoga-pragmatica (Со-Founder);IML (Director of Commercial Departament);PickPoint (Руководитель отдела прямых продаж)
+;https://www.facebook.com/alexkavin.msk;EKAM - система управления торговлей (Специалист быстрого реагирования);Спортмастер (2013 to 2016);DME - Domodedovo International Airport Moscow (APS);Московский государственный технический университет гражданской авиации (Class of 2012);1977 (Moscow, Russia)
+;https://www.facebook.com/profile.php?id=100002571007644;PickPoint (Руководитель направления развития агентской сети);СДЭК (Руководитель отдела продаж);РосНОУ (Class of 2014)
+;https://www.facebook.com/profile.php?id=100000205653178;
+;https://www.facebook.com/svetlana.krivorotko;ОАО "Альфа-Банк" (October 2010 to present)
+;https://www.facebook.com/timurbautdinov;
+;https://www.facebook.com/andrey.khromov.10;Aristos Group (Управляющий партнер);Dostavka.ru (Executive director);МИРЭА (Class of 1993)
+;https://www.facebook.com/amnets;Латвийский университет (Riga, Latvia);Latvijas universitāte (Riga, Latvia)
+;https://www.facebook.com/rikapatson;IML (Deputy Chairman of the Board);Инвестиционное агентство Санкт-Петербурга (Co-Founder / Partner);Unident (Отдел Разработки Новых Технологий);SKOLKOVO - Moscow School of Management (Class of 2013);Международный Эриксоновский Университет коучинга (Class of 2013);Московский институт психоанализа (Class of 2012);Московский государственный университет имени М.В.Ломоносова (Moscow, Russia)
+;https://www.facebook.com/profile.php?id=100008786734610;Лицей №5 (Podolsk, Bashkortostan, Russia)
+;https://www.facebook.com/profile.php?id=100006053440197;IML (Head of Sales Department);ИМСГС (Moscow, Russia);Школа 96 (Moscow, Russia)
+;https://www.facebook.com/efim.aldukhov;E-commerce Solutions (Chief executive officer);E-commerce Fitness (Управляющий партнёр);Enter (E-commerce Marketing Head);WomanJournal, WebprimeGroup (CMO);Retail Media (CEO);Retail Media (Marketing Director);Связной - Маркет (E-commerce Strategist);Fast Lane Ventures (Web Prime Group);Direct Group (Marketing Director);RetailMedia (Генеральный директор)
+;https://www.facebook.com/olga.ivashina;Platron (Chief marketing officer);WebMoney Transfer (Marketing management);Price.Ru (Marketing Director);Travelmenu (Chief marketing officer);Wikimart (Директор по маркетингу и рекламе);Интернет-магазин OZON.ru (Заместитель директора по маркетингу);RMA - Менеджмент в ресторанном бизнесе и клубной индустрии (Управление рестораном);Белорусский государственный университет (Class of 1998);Сморгонь (Class of 1993);БГУ (Minsk, Belarus)
+;https://www.facebook.com/ekaterina.gnezdilova;Moscow Investors Association (PR-менеджер);Интерфакс-Недвижимость (Нет данных);Литературный институт имени А.М. Горького (Class of 2002)
+;https://www.facebook.com/invisibleon;Город Строителей - ТЦ Ривьера (Business Development Director);Автогородок «Motor City» (Business Development Director);PricewaterhouseCoopers (CMO);DAOB (CEO);Сумки оптом (Business Development Director);Rezeda Suleyman (Chief marketing officer);ИТЕРАНЕТ (Директор по маркетингу);ИТЕРАНЕТ (Руководитель интернет-проектов);TNS Global (Техническая поддержка);"Почта России" (System administrator);ООО "Итеранет" (Нет данных);РГСУ (Class of 2012);Школа № 591 (Class of 2006)
+;https://www.facebook.com/anton.grigorev.16;East Way - Сувениры и подарки с логотипом. (Moscow, Russia);Riga Aviation University (Riga, Latvia);МАИ, Москва (Магистр);Школа 8 (Yakutsk, Russia)
+;https://www.facebook.com/nordtodd;Total 360 (Основатель / владелец);Ingate (Analyst);DEMIS GROUP digital agency (SEO Team Leader);ТГТУ (бывш. ТИХМ) (сотрудник);Скобеев и Партнеры (Руководитель направления контент-маркетинга и отдела новаций);ТГТУ (бывш. ТИХМ) (Инженер-технолог);Тамбовский Государственный Технический Университет (1 September 2007 to 2017);ТГТУ (бывш. ТИХМ) (Class of 2014);Лицей № 13 (Class of 2007)
+;https://www.facebook.com/kostfast;Marketcall (Regional Director)
+;https://www.facebook.com/julia.vorontsova;Intelligent Emails (Marketing Manager);SAPATO.ru (Email Marketing);Otto Group Russia (Marketing);Plekhanov Russian University of Economics (Class of 2006)
+;https://www.facebook.com/bezrukov.dmitry;NKTGroup (CEO and Co-Founder);Jobhoreca.ru (CEO and Co-Founder);Саратовский государственный социально-экономический (Class of 2009);Саратовский государственный университет (Социально-культурный сервис и туризм)
+;https://www.facebook.com/profile.php?id=100004414326070;Ibrain. Экспертное агентство (IT-детектив);Деталика (Руководитель интернет-магазина);ТК Аксиома (2013 to 2014);Алкодизайн (Арт-директор);Группа компаний TRINET (Saint Petersburg, Russia);AlkoDesign (Saint Petersburg, Russia);Школа № 534 (Class of 1998);Университет Технологии и Дизайна (АСУ)
+;https://www.facebook.com/irina.ponomareva.100500;Hermes Russia (Marketing Communications Manager);Erfurt.Russia (Marketing Manager);Högl Russia (Marketing Manager);МГУ им. Н.П. Огарева (Class of 2009)
+;https://www.facebook.com/egorlanko;Азбука Вкуса (Вице-президент Omni-channel);Lookz (General Manager/Partner);Legendary digital (CEO);агентство веб-коммуникаций Wizardry (Технический директор);Serve Businesses Worldwide (Технический директор);КНУ им. Т. Г. Шевченко (Kyiv, Ukraine);КНУ им.Т.Г Шевченка (Прикладная математика);Лицей № 15 (Stavropol)
+;https://www.facebook.com/cyberstos;WARGAMING.NET (дворник);земля (Оператор пули в нарезном дуле);Game Insight (дворник);Game Insight (Game Developer);КамчатГТУ (Экономика.);42 (Dushanbe, Tajikistan)
+;https://www.facebook.com/profile.php?id=100000943276210;ХОТ Лоджистикс (Директор (руководитель))
+;https://www.facebook.com/masha.mord;
+;https://www.facebook.com/profile.php?id=100011019497321;
+;https://www.facebook.com/rashid.sunchalyaev;DPD в России (August 2017 to August 2018);A1.express (Коммерческий директор);Apiship (Коммерческий директор);Компания Ипол (2014 to 2015);БКС Премьер (2012 to 2014);AMP Global Clearing FIB (Директор (руководитель));Гарант Парк (Руководитель отдела продаж);БИТТиУ (ПСМ);Школа № 25 (Balakovo)
+;https://www.facebook.com/margarita.ok.3;Риалвеб (Senior HR);Biglion Russia (Senior HR manager)
+;https://www.facebook.com/alexey.drobysheff;Go Mobile (Нет данных);МЭСИ (Class of 2010);МПГУ (бывш. им. Ленина) (Class of 2005);1-10 (Class of 1996);Moscow State Pedagogical University (Moscow, Russia)
+;https://www.facebook.com/alexey.gladkikh.58;Лофт Центр (3 April 2017 to present);PULT.ru (официальный клуб) (Chief Operating Officer);МИМ ЛИНК, Open University (Class of 2015);Российский государственный открытый технический университет... (Class of 1998)
+;https://www.facebook.com/eugenia.grigorieva;CopyBooth (2015 to present);Docco. Команда профессиональных аналитиков и технических писателей (Owner and Founder);Paper design studio "Floral Jungle" (Owner and Founder);Балетная Cтудия "Феи Драже" (Owner and Founder);Финансовый университет при Правительстве Российской Федерации (Class of 2015);Université de Caen, Basse-Normandie (Class of 2006);Institut Universitaire de Formation des Maîtres (Class of 2002);Moscow State Pedagogical University (Moscow, Russia)
+;https://www.facebook.com/antonina.rahmanova;Oborot.ru (менеджер отдела маркетинга и рекламы);Кворум (Маркетолог);Infor-media Russia (Нет данных);гимназия №13 (Makhachkala)
+;https://www.facebook.com/profile.php?id=100001068812146;ADLABS (September 2002 to November 2015);Международный Университет природы, общества и человека "Дубна" (Class of 1999);Международный университет природы, общества и человек (Информационные системы в экономике)
+;https://www.facebook.com/sveta.aldabergenova;Rozenbox - Розы в оригинальной упаковке из собственной теплицы. (2 October 2017 to present);Apiship (19 February 2015 to 1 February 2017);IML (March 2014 to January 2015);RASCHINI (31 August 2013 to 2 December 2013);TAGO (July 2012 to July 2013);Mozaik Development (1 December 2009 to 1 September 2011);Московский государственный университет имени М.В.Ломоносова (Юриспруденция);РГСУ (Class of 2012);РУДН (Class of 2011);Школа № 565 (Class of 2006);Школа № 351 (Class of 1997)
+;https://www.facebook.com/maria.nazamutdinova;Ozon.ru (April 2010 to present);Newton (April 2008 to April 2010);OZON.travel (Нет данных);Ньютон, PR Агентство (Нет данных);PR-агентство Ньютон (Нет данных);Ural State University (Class of 2006);32 (Нет данных)
+;https://www.facebook.com/kaa.qwerty;ООО "Евротех-Сервис" (Директор по стратегическому развитию);ХГПИ г.Хабаровск (история и обществоведение)
+;https://www.facebook.com/makkaveev.denis;Self-employed (Owner);Alibaba.com (Директор по развитию);ирито (представитель);ЗабГПУ (Class of 2000);Чита, Россия, гимназия №4 (Class of 1990)
+;https://www.facebook.com/yuudm;SUNLIGHT (Руководитель отдела интернет маркетинга);Эльдорадо (Руководитель группы интернет-рекламы);Эльдорадо (Менеджер по анализу интернет-каналов);Комус (SMM Manager);Hearst Shkulev Media (Менеджер);МГМУ МАМИ (Class of 2015);МАИ (Московский Авиационный Институт) (Авиационная техника);Школа № 224 (Moscow, Russia)
+;https://www.facebook.com/ndbnn;X5 Retail Group (2016 to 2017);Клуб Логистов (May 2015 to December 2017);Moscow State Automobile & Road Technical University (MADI) (2012 to 2016)
+;https://www.facebook.com/andrey.promo;GetShop.TV (CEO and Co-Founder);ФРИИ (трекер);UMI.CMS (Директор по развитию);bdbd (March 2008 to October 2011);Корпорация РБС (Руководитель проектов);design-studio "Webprofy.ru" (Руководитель отдела продаж);РАНХиГС (Class of 2013);Московский государственный университет имени Ломоносова (Class of 2007);МГУ им. Ломоносова (Class of 2007);Московский государственный университет имени Ломоносова (Class of 2001);Гимназия 1526 (Class of 1990);RMA - Менеджмент в сфере интернет-бизнеса (Moscow, Russia);RMA - Менеджмент в сфере интернет-бизнеса (Moscow, Russia)
+;https://www.facebook.com/koptevartem;Otclick-ADV (26 March 2018 to present);HiConversion (Senior Sales Manager);LoyalPost.ru (Head of Sales);МЭСИ - Московский государственный университет экономи (Class of 2015)
+;https://www.facebook.com/svbezverkhiy;Аудиомания (Chief marketing officer);Подружка (Руководитель проекта e-commerce);Сеть зоомагазинов "Четыре Лапы" (Руководитель интернет-магазина);Samsonite (Директор интернет-магазина);ГК Pudoff (Начальник отдела интернет-развития);360d (Копирайтер, контент-менеджер);Мобильный портал mforum.ru (Копирайтер);Бизнес-школа RMA (Менеджмент в сфере интернет-технологий);Центр онлайн-обучения "Нетология" (Class of 2013);ТТИ ЮФУ (Class of 2011);Школа №8 (Class of 2006)
+;https://www.facebook.com/gorshkov.v.roman;
+;https://www.facebook.com/zverevamaria;
+;https://www.facebook.com/vpknyazev;SV Helpenstein 1991 e.V. (Betreuer);Семейный мегамаркет LAARY (Основатель);Gostnorm AG (Председатель совета директоров);Versand-office.de (основатель, руководитель);Шахтинский политехнический (Class of 1981);средняя общеобразовательная школа № 37 (Class of 1977)
+;https://www.facebook.com/alexander.kolodeev;МВО шины, диски, шиномонтаж (Исполнительный директор);МВО-Столица (Зам. исполнительного директора);МГОУ (открытый) (Class of 2009);ВА РВСН имени Петра великого (2001 to 2003);Школа 11 (Class of 1997)
+;https://www.facebook.com/sarkhangelskiy;
+;https://www.facebook.com/maria.sadkovich;Fine Studio (Ген. директор);Российский еврейский конгресс (Директор по коммуникациям);Московский государственный университет имени Ломоносова (Class of 2000);Школа № 1289 (Class of 1993)
+;https://www.facebook.com/profile.php?id=100001806619570;DPD в России (Sales Director in Moscow region);Московский гуманитарный университет - МосГУ (Class of 2007)
+;https://www.facebook.com/profile.php?id=100026036958097;IO Technologies (Head of Sales IO Retail);RBC Group (Head of Sales Department);RBC Group (Corporate Projects Manager);Terrasoft (CRM/Service Desk sales specialist)
+;https://www.facebook.com/vadimsmart;Московский государственный университет имени М.В.Ломоносова (Moscow, Russia);№ 1 (Abington, Pennsylvania)
+;https://www.facebook.com/girichev.vladimir;Транспортная Компания "КИТ" (Head of Internet Projects)
+;https://www.facebook.com/itritmz;
+;https://www.facebook.com/profile.php?id=100026045124178;Служба доставки для бизнес-клиентов и частных лиц Boxberry (Нет данных);Ural Federal University (Yekaterinburg, Sverdlovskaya Oblast', Russia)
+;https://www.facebook.com/profile.php?id=100025185782937;
+;https://www.facebook.com/dmcontext;DMcontext (Internet Marketing Specialist);Автосканеры RU (Internet Marketing Specialist);SportAqua (CPC-Specialist);Zel Pro (Sales Account Manager);Национальный исследовательский университет «Московский институт электронной техники» (Moscow, Russia)
+;https://www.facebook.com/profile.php?id=100025926812626;республиканский дом моделей (13 May 1975 to present);Титлп (13 May 1962 to 1967)
+;https://www.facebook.com/galeev.aleksandr;Green Mama (E-Commerce Director)
+;https://www.facebook.com/profile.php?id=100026530909561;Малый бизнес, несколько продуктовых точек (10 June 2016 to present);Víðir matvöruverslun (2014 to 2016);Группа "Черкизово" (Нет данных);X5 Retail Group, ФТС "Пятерочка" (Нет данных);Магнит (Нет данных);MBA Reykjavik University (Class of 2018);Moscow Aviation Institute (Прикладная математика и информационные технологии)
+;https://www.facebook.com/ivan.kabakov.90;Oborot.ru (30 July 2018 to present)
+;https://www.facebook.com/iivaaan;БФ Желание Быть (учредитель, директор);Быстробукет (CEO);Oborot.ru (March 2015 to July 2016);clipso (November 2010 to February 2015);МПГУ (бывш. им. Ленина) (Class of 2002);122 (Class of 1997)
+;https://www.facebook.com/katranzhi;salers.ru (Co-Founder)
+;https://www.facebook.com/profile.php?id=100027660810959;MTS Group (Insight and Analytics);PwC Russia (2009 to 2011)
+;https://www.facebook.com/profile.php?id=100025034948552;Contifar Logistics Co.,Ltd (sales);Xi'an International University (Class of 2010)
+;https://www.facebook.com/muhit.biden.5;Video-clinic.com (Owner and Founder);МЭИС (Moscow, Russia)
+;https://www.facebook.com/profile.php?id=100025182284934;Школа контекстной рекламы Татьяны Михальченко (Kyiv, Ukraine);Одесский государственный аграрный университет (Нет данных)
+;https://www.facebook.com/nikita.kravchenko.54584;People SMM (Content Manager);БСШ №16 (Class of 2007)
+;https://www.facebook.com/profile.php?id=100026335595941;Пульс Опрос (15 May 2018 to present);Мурманский государственный технический университет (Class of 2017)
+;https://www.facebook.com/dvarvarochev;City Business School (2017 to 2018);Московский социально-гуманитарный институт (Class of 2009)
+;https://www.facebook.com/profile.php?id=100024558075134;Литературный институт им.Горького (Moscow, Russia)
+;https://www.facebook.com/profile.php?id=100018272412280;Naspers (16 September 2017 to present);Private equity fund (CEO);Queen Mary University of London (Class of 2009);МГИМО (Class of 2001);ГОУ ЦО57 "Пятьдесят седьмая школа" (Class of 1995)
+;https://www.facebook.com/alex.horn.12576;СДЭК (Нет данных);Алтайский государственный университет (Barnaul)
+;https://www.facebook.com/alexeydoc;ВрачиОнлайн (Создатель);Российский экономический университет имени Г. В. Плеханова (Class of 2007);Baruch College (New York, New York);Школа 11 (Moscow, Russia)
+;https://www.facebook.com/profile.php?id=100024503850815;TradeZone Service (ведущий менеджер);Мэйджор Карго Сервис (Major Cargo Service) (Logistics Manager);МоуСош 1 (1 September 1996 to 2007)
+;https://www.facebook.com/profile.php?id=100016863434344;Kamin.group (Менеджер по развитию бизнеса);Кафедра державного управління і публічного адміністрування ХНЕУім.С.Кузнеця (Class of 2014)
+;https://www.facebook.com/profile.php?id=100024456880145;Yves Rocher IL (Маркетинг);Московский государственный университет имени М.В.Ломоносова (Moscow, Russia)
+;https://www.facebook.com/editor.sergeev;
+;https://www.facebook.com/avtotapex;Автозапчасти ТехАвтоЦентр (Директор по маркетингу);Online Business Development (Public Relations Specialist (PR Specialist));Московский политехнический университет (Moscow, Russia);Школа 327 (Moscow, Russia)
+;https://www.facebook.com/nastavesta;LandingHost (Search Engine Optimizer (SEO))
+;https://www.facebook.com/profile.php?id=100024467973950;
+;https://www.facebook.com/alexvolkov.orange;Digital Tools (Генеральный директор);Российский экономический университет имени Г. В. Плеханова (Moscow, Russia);School 587 (Moscow, Russia)
+;https://www.facebook.com/elisaveta.obrastsova;Loyalty Library (voice of loyalty marketing in Russia) (Продюсер проекта);Высшая школа бизнеса ГУУ (The Higher Business School) (Moscow, Russia);1529 (Moscow, Russia)
+;https://www.facebook.com/dmitriy.lyubashin;7Seconds (Key Partners Director);B&N Bank (Chief manager for work with non-core assets of the bank);MDM Bank (Manager of Department of Commercial Real Estate);L'Oréal Paris (Key Account Manager);Московский государственный университет пищевых производств (инженер-технолог продуктов длительного хранения)
+;https://www.facebook.com/sr.polyakoff;Portugalist.club (Нет данных)
+;https://www.facebook.com/ivan.fastery;
+;https://www.facebook.com/profile.php?id=100021958060994;Moscow State Pedagogical University (Moscow, Russia);Школа 1 (Rostov-on-Don)
+;https://www.facebook.com/profile.php?id=100023050134135;Teleport (Business Development Manager);PONY EXPRESS (Product manager);DHL eCommerce (Customer Solutions Executive);DHL eCommerce (Customer Service Representative);DHL (Customer Service Specialist)
+;https://www.facebook.com/profile.php?id=100017889431178;HTIsrael (Нет данных)
+;https://www.facebook.com/profile.php?id=100015081139082;
+;https://www.facebook.com/profile.php?id=100014580816330;Cloudpayments (PR-manager)
+;https://www.facebook.com/profile.php?id=100014545414437;
+;https://www.facebook.com/profile.php?id=100014549419153;SimbirSoft company (Заместитель Директора по развитию);УлГУ (Нет данных);средняя школа №15 г. Ульяновск (Ulyanovsk)
+;https://www.facebook.com/nikolrudova;Digital-агентство ORO DIGITAL (Менеджер интернет-проектов);РАНХиГС бывш.ВВАГС Нижний Новгород (Class of 2012);№70 Нижний Новгород (Class of 2007)
+;https://www.facebook.com/profile.php?id=100015300392956;Self-employed (5 June 2018 to present);Free-lance.ru (5 June 2018 to present);TextBroker.ru - Бюро профессиональных копирайтеров (Нет данных);Karaganda State University (Karaganda, Qaraghandy, Kazakhstan)
+;https://www.facebook.com/profile.php?id=100014471462270;CFO.Russia (Нет данных);Інститут банківських технологій та бізнесу Університету банківської справи (Class of 2016);Севастопольский институт банковского дела (Class of 2014);Симферополь, гимназия №1 им. К.Д. Ушинского (Class of 2010)
+;https://www.facebook.com/profile.php?id=100015456286330;Московский государственный университет имени М.В.Ломоносова (Юриспруденция)
+;https://www.facebook.com/profile.php?id=100014941154896;Служба доставки для бизнес-клиентов и частных лиц Boxberry (Нет данных);Voronezh State Technical University (ВГТУ) (Voronezh)
+;https://www.facebook.com/dmitrykalinov;Cityads Media (Head of Mobile);Art Department (Client Director);Russian Presidential Academy (Class of 2014);Санкт-Петербургский государственный архитектурно-строительный университет (Saint Petersburg, Russia)
+;https://www.facebook.com/profile.php?id=100015465766761;
+;https://www.facebook.com/profile.php?id=100015360343652;InPost Russia (Commercial Director);Интернет-магазин OZON.ru (Moscow, Russia);Zurich (Corporate Insurance Department Director);Nespresso (Moscow, Russia);DHL (Moscow, Russia);МГТУ им Н Э Баумана (Class of 2000)
+;https://www.facebook.com/profile.php?id=100016221902077;Стройка Оптом (E-Commerce Director);Saint-Gobain (Marketing management);Юлмарт ulmart.ru (Marketing Officer);Ultra Electronics (Marketing management);Московский государственный университет имени М.В.Ломоносова (ВМК);Школа 57 (Moscow, Russia)
+;https://www.facebook.com/profile.php?id=100016392312694;AdvantShop (Менеджер по работе с партнёрами)
+;https://www.facebook.com/profile.php?id=100016153995102;Россети (2013 to 15 December 2017)
+;https://www.facebook.com/profile.php?id=100014518683308;
+;https://www.facebook.com/okologist;Self-employed (Нет данных)
+;https://www.facebook.com/kirill.eremeev.359;EKAM - система управления торговлей (Руководитель отдела по работе с партнерами);InSales - платформа интернет-магазина (специалист по работе с партнерами);Панорамный ресторан премиум класса "Extra Lounge" (Менеджер);Российский экономический университет имени Г. В. Плеханова (2010 to 2015);Школа № 902 (Moscow, Russia)
+;https://www.facebook.com/profile.php?id=100015143136640;ИМА-консалтинг (ИМА-консалтинг)
+;https://www.facebook.com/profile.php?id=100016562947476;Freelancer (SEO-специалист);Russian Railways (Engineer);ПГУПС императора Александра I (Saint Petersburg, Russia)
+;https://www.facebook.com/profile.php?id=100013344426629;КНИТУ КАИ им. Туполева (Kazan, Tatarstan)
+;https://www.facebook.com/profile.php?id=100013112793474;PerfectSEO (Директор по развитию);РУК (бывш. МУПК) (Менеджмент организации)
+;https://www.facebook.com/profile.php?id=100013064346159;
+;https://www.facebook.com/profile.php?id=100014082006199;Self-employed (Нет данных)
+;https://www.facebook.com/profile.php?id=100013473373250;
+;https://www.facebook.com/profile.php?id=100013118888406;
+;https://www.facebook.com/profile.php?id=100013918806170;Shiptor.ru (эксперт по логистике);Санкт-Петербургский государственный институт культуры (Saint Petersburg, Russia)
+;https://www.facebook.com/truckfree.official;TruckFree-бесплатная поисковая система свободного грузового транспорта. (Менеджер);НГАСУ - Сибстрин (2009 to 2014);Школа 2 (1998 to 2009)
+;https://www.facebook.com/profile.php?id=100012900919575;
+;https://www.facebook.com/ivan.amorem;Amorem.ru (B2B Manager)
+;https://www.facebook.com/profile.php?id=100013984751920;мегаполис 24 экспресс (17 April 2015 to present)
+;https://www.facebook.com/profile.php?id=100014346727506;Без берегов (Репортер);МГУ (Московский Государственный Университет им М.В.Ломоносова) (Нет данных)
+;https://www.facebook.com/biweb24;BIWEB - Бизнес & аналитика (CEO);АО "Фармстандарт" (Разработчик и эксперт по BI и WEB технологиям)
+;https://www.facebook.com/profile.php?id=100013131331814;Московский государственный университет имени М.В.Ломоносова (Международная журналистика)
+;https://www.facebook.com/asvoronin88;ФРИИ (Консультант по продажам it-продуктов);«МойГород» - городские мобильные приложения (Co-Founder and CMO);RELOCOM (Руководитель проектов);1-й набор PhilTech Акселератор (Moscow, Russia);11-й набор Акселератора ФРИИ (Moscow, Russia);МИЭТ (ТУ) (Zelenograd, Russia);602 школа Зеленоград (Moscow, Russia)
+;https://www.facebook.com/profile.php?id=100014426748984;PADI (Divemaster);Hochschule Zittau/Görlitz (Sociology);Mittelschule Innenstadt Görlitz (Görlitz)
+;https://www.facebook.com/profile.php?id=100013152095646;Arvato Russia (Marketing Manager);Академия Пастухова (Yaroslavl);ЯГПУ им.К.Д.Ушинского г.Ярославль (Yaroslavl)
+;https://www.facebook.com/profile.php?id=100013811294860;Леруа Мерлен (Manager);МБОУ СОШ 124, Самара (1992 to 2002)
+;https://www.facebook.com/Samicpro;Советский Канал (Основатель и руководитель);BDBD / Корпорация РБС (Начальник отдела продаж)
+;https://www.facebook.com/profile.php?id=100013986964153;Школа № 318 (Moscow, Russia)
+;https://www.facebook.com/v.frostbitten;Marella (Head of Economics Department);РосНОУ (Moscow, Russia)
+;https://www.facebook.com/profile.php?id=100011893213972;
+;https://www.facebook.com/Ne.Dm.74;South Ural State University (Chelyabinsk, Russia)
+;https://www.facebook.com/profile.php?id=100012209989842;Айсвуд (Директор по развитию);Московский ВЗФЭИ г.Москва (Class of 2006);Международный университет природы, общества и человека "Дубна", г. Дубна (Class of 2000);средняя школа 4 г.Дубна (Class of 1995);Школа №8, г. Дубна (Class of 1994)
+;https://www.facebook.com/artpiarru;zyuzin.pro (Разработка сайтов);МФПУ Синергия (бывш. МФПА, ММИЭИФП) '11 (Moscow, Russia);Школа № 1122 (Moscow, Russia)
+;https://www.facebook.com/ulyana.bogomolova.31;Meeting Point Group (Executive Director)
+;https://www.facebook.com/profile.php?id=100011644353082;InSales - платформа интернет-магазина (Нет данных);EKAM - система управления торговлей (Нет данных)
+;https://www.facebook.com/profile.php?id=100012505366896;Комус-контакт (Руководитель);ТУЛАЖЕЛДОРМАШ (2011 to 2013);ТулГУ (2004 to 2013)
+;https://www.facebook.com/profile.php?id=100012659049852;Bauman Moscow State Technical University (2011 to 2016)
+;https://www.facebook.com/profile.php?id=100012045098748;
+;https://www.facebook.com/profile.php?id=100012161470459;
+;https://www.facebook.com/belozertseff.ru;Student (Engineer);Самарский государственный аэрокосмический университет (Информатика и вычислительная техника)
+;https://www.facebook.com/mashanikonovaa;Mail.Ru Group (Marketing Manager);TargetSummit (Event Organizer);РУДН (Реклама и PR)
+;https://www.facebook.com/profile.php?id=100012846760509;Сима-ленд (PM);сантехбомба (Product manager);www.sanbom.ru (Менеджер продукта);Уральский государственный горный университет (Менеджмент);Екатеринбург (Yekaterinburg, Sverdlovskaya Oblast', Russia)
+;https://www.facebook.com/direct.999;
+;https://www.facebook.com/profile.php?id=100012317740835;ТК Твой Дом (Телеведущий);REN TV (Телеведущий)
+;https://www.facebook.com/olga.s.chernikova;Тэглайн (Менеджер);КФУ (бывш. КГУ им. Ульянова-Ленина) (Информационные системы и технологии)
+;https://www.facebook.com/profile.php?id=100012593356552;
+;https://www.facebook.com/logistic.borger;
+;https://www.facebook.com/anton.like.bounty;Высшая экономическая школа СПбГЭУ (Class of 2014);СОШ №1 г. Светогорска (Svetogorsk)
+;https://www.facebook.com/salibekoff;ROBOKASSA (Head of Sales);КРЕДИТ ЕВРОПА БАНК (24 August 2013 to 2015);Московский государственный индустриальный университет (МГИУ) (2007 to 2013);872 (2001 to 2007)
+;https://www.facebook.com/profile.php?id=100010762502413;Луганский строительный колледж (College Professor);г. Луганск, школа №42 (Class of 2007);University of Luhansk (Начальное образование)
+;https://www.facebook.com/flvbybcnhfnjh;www.vegaspace.ru (Moscow, Russia);Work from home (Owner)
+;https://www.facebook.com/profile.php?id=100011419713425;МГИМО (Moscow, Russia)
+;https://www.facebook.com/profile.php?id=100011273190307;Top 5 e-commerce project (Search Engine Optimizer (SEO));Группа компаний TRINET (Search Engine Optimizer (SEO))
+;https://www.facebook.com/profile.php?id=100011127529159;
+;https://www.facebook.com/profile.php?id=100011522378551;Интернет-маркетинг (Нет данных);МГИМО (Moscow, Russia)
+;https://www.facebook.com/profile.php?id=100011439816047;ForkLog - культовый журнал о криптовалютах и блокчейне (Editor)
+;https://www.facebook.com/stanislavlipenin;Fabuza - Фабрика Юзабилити (2015 to present);Denis' School (2014 to 2015);РГТЭУ (Class of 2009);Школа 1245 (Class of 2004)
+;https://www.facebook.com/holly.duvris;
+;https://www.facebook.com/profile.php?id=100010617044358;
+;https://www.facebook.com/profile.php?id=100011269303910;Publicis Worldwide, North America (New York, New York);New York University (New York, New York)
+;https://www.facebook.com/profile.php?id=100011165044645;
+;https://www.facebook.com/profile.php?id=100010922738553;Технический Центр Систем Безопасности (Нет данных);школа 10, г. Троицк, Челябинской области (Troitsk, Chelyabinskaya Oblast', Russia)
+;https://www.facebook.com/profile.php?id=100011333364746;
+;https://www.facebook.com/MaximCuzin;ACMG (Special Projects Producer);Коты Счастья (Co-Owner and Co-Founder);I Love Supersport Running (Social Media Marketing Manager);INDEVER (Social Media Marketing Manager);All You Need Is A Cat (Project manager);Партия Яблоко (SMM Manager);Академия интернет-резерва (Internet Marketing);Академия интернет-резерва (Social media marketing)
+;https://www.facebook.com/anastasya.afanasyeva.1;BunchTrip (Founder);Eyecloud - съемки рекламы, съемки клипов, аэросъемка (Founder);Тверской Государственный Университет (Tver)
+;https://www.facebook.com/mikhail.litovchenko.50;Pozvonim.com (Chief Executive Officer);Hosting Flops.ru (Co-Owner)
+;https://www.facebook.com/profile.php?id=100011271046214;Sorbonne Université - Faculté des lettres (Факультет менеджмента и экономики предприятий)
+;https://www.facebook.com/profile.php?id=100010539979231;
+;https://www.facebook.com/neocev;3data Premium Data Centers (Chief Commercial Officer);Высшая школа экономики (Business management);Школа № 645 (Moscow, Russia)
+;https://www.facebook.com/profile.php?id=100009850863727;
+;https://www.facebook.com/profile.php?id=100010106620536;Jungheinrich AG (Manager, system departament);ООО Торговый Дом "Кифато МК" (28 January 2008 to 1 January 2016);ООО"Компания"СервисБар" (2003 to 2005);АВВАКУЛ (Armavir, Russia)
+;https://www.facebook.com/profile.php?id=100009906184886;Filuet Group (Managing Director Russia, CIS, Baltics and Israel);Antwerp Management School (EMBA);Saint-Petersburg State University (Philosophy and Political Science)
+;https://www.facebook.com/profile.php?id=100010465932047;Self-employed (Нет данных);Ulyanovsk State University (Ulyanovsk);21 средняя школа (Нет данных)
+;https://www.facebook.com/profile.php?id=100010315487654;
+;https://www.facebook.com/shtykalov;Сравни.ру (SEO-специалист);Rush Agency (SEO специалист);Комплето - Системный Электронный Маркетинг (SEO специалист);Rutorika (smm-менеджер)
+;https://www.facebook.com/profile.php?id=100010058809156;Argus Media (Нет данных);МГТУ им. Г.И. Носова (Magnitogorsk);Школа 56 (Magnitogorsk)
+;https://www.facebook.com/Rraaa1;
+;https://www.facebook.com/profile.php?id=100010052553678;Пример ФОНА (Sales Account Manager);TG Company (Супервайзер);КНУ им. Ж.Баласагына (2002 to 2009)
+;https://www.facebook.com/profile.php?id=100009991030010;ООО Новоморснаб (Заместитель коммерческого директора);ооо "Рускон" (Главный технолог);Группа НМТП (Engineer);ВВМУПП им.Ленинского Комсомола (Class of 1990)
+;https://www.facebook.com/alex.pyastolov;Букмекерская компания Фонбет (Country Manager Kazakhstan);Poker Kazakhstan (Country Manager Kazakhstan);Территория полета (CMO (Директор по маркетингу));Little Gentrys (Руководитель направления интернет-маркетинга);Wikimart (Старший специалист по интернет-маркетингу);MGCom (Менеджер по контекстной рекламе);МГУП (печати) (бывш. МГАП, МПИ) (Class of 2016);МГУП (печати) (бывш. МГАП, МПИ) (Class of 2014)
+;https://www.facebook.com/paul.molyanov;Сделаем (Founder);Tavrida National V.I. Vernadsky University (2009 to 2014);Школа №40, г. Симферополь (Class of 2009)
+;https://www.facebook.com/profile.php?id=100010203913453;Smart Sales (Менеджер);МГТУ им Н Э Баумана (Економика предприятия)
+;https://www.facebook.com/rakhmatullin.bulat;goods (Business Development Manager);Wikimart (Специлист по работе с ключевыми партнерами);РГГРУ(МГРИ) имени Серго Орджоникидзе (Moscow, Russia)
