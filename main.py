@@ -17,7 +17,7 @@ from config import FB_LOGIN, FB_PASSWORD
 
 
 def delay():
-    return randint(3, 7)
+    return randint(3,13)
 
 
 @dataclass
@@ -100,7 +100,7 @@ def is_suspended(driver: Chrome) -> bool:
 
 
 def facebook_login(driver: Chrome) -> None:
-    sleep(delay())
+    sleep(3)
     fb_login, fb_password = next(fb_credentials)
     driver.get("https://www.facebook.com")
     driver.find_element_by_id("email").send_keys(fb_login)
@@ -116,7 +116,7 @@ def facebook_login(driver: Chrome) -> None:
 
 
 def facebook_logout(driver: Chrome) -> None:
-    sleep(delay())
+    sleep(2)
     driver.get("https://www.facebook.com")
     driver.find_element_by_tag_name("body").send_keys(Keys.ESCAPE)
     try:
@@ -189,7 +189,7 @@ def save_user(user: User):
 
 def get_parsed_links():
     with open(users_file) as file:
-        return [line.split(';')[1].strip('\n') for line in file.readlines()]
+        return [line.split(';')[0].strip('\n') for line in file.readlines()]
 
 
 def save_friends(driver: Chrome, profile_links):
@@ -226,7 +226,7 @@ def get_friend_links(profile_link: str) -> List:
 def save_jobs(friend_link, jobs):
     print(friend_link, jobs)
     with open("users.txt", "a") as file:
-        file.write(f";{friend_link};{';'.join(jobs)}\n")
+        file.write(f"{friend_link};{';'.join(jobs)}\n")
 
 
 def main(driver: Chrome):
@@ -241,7 +241,10 @@ def main(driver: Chrome):
             try:
                 if friend_link in parsed_user_links:
                     continue
-                jobs = parse_jobs(driver, friend_link)
+                try:
+                    jobs = parse_jobs(driver, friend_link)
+                except:
+                    continue
                 save_jobs(friend_link, jobs)
             except NoSuchElementException:
                 facebook_logout(driver)
