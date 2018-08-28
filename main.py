@@ -6,18 +6,15 @@ from random import randint
 from typing import List, Tuple
 from time import sleep
 
-import click
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver import Chrome, ChromeOptions
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.remote.webelement import WebElement
 
-from config import FB_LOGIN, FB_PASSWORD
-
 
 def delay():
-    return randint(3,13)
+    return randint(3, 13)
 
 
 @dataclass
@@ -255,12 +252,9 @@ def main(driver: Chrome):
                     facebook_login(driver)
                 with open("log.txt", "a") as file:
                     file.write(f"{friend_link}\n")
-        # parse_friends_works(driver, profile_links)
 
 
 if __name__ == "__main__":
-    # https://www.facebook.com/e.pchelincev  Friends: ~726
-    # https://www.facebook.com/vladimir.bugaevsky.1 Friends: ~1122
     profile_links_file = "target_users.txt"
     users_file = "users.txt"
 
@@ -273,6 +267,3 @@ if __name__ == "__main__":
     except Exception as e:
         print(e)
         chrome_driver.close()
-
-
-    # save_to_csv(friends_job)
